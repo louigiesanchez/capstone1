@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+:root {
+	--transparent: transparent; /*transparent*/
+	--colorscheme1: #000066; /*dark-color*/
+	--colorscheme2: #99d6ff; /*light-color*/
+	--colorschme3: #0074D9; /*normal-color*/
+
+/*	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Teko', sans-serif;*/
+}
+
+
+/*GENERAL SYLES*/
+
+.navbar {
+	position: fixed;
+	top: 0;
+	background-color: var(--colorscheme1);
+	z-index: 10;
+	opacity: 0.95;
+}
+
+button {
+	word-wrap: break-word;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: var(--colorscheme1);
+	z-index: 10;
+	opacity: 0.95;
+}
+
+.fab {
+	color: black;
+	font-size: 50px;
+}
+
+.main-body{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to bottom, #000066, #0074D9, #99d6ff)
+}
+
+#googlemap {
+	width: 100%;
+	height: 50%;
+	margin: 0 auto;
+}
+
+.right , .left {
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		border: 1px	solid black;
+}
+
+.label {
+	font-size: 24px;
+}
+
+.card-body .card-header {
+	padding: 0;
+
+}
+
+.banner > img {
+	height:	30px;
+}
+
+header .dropdown-menu {
+	background-color: var(--transparent);
+	border: 0;
+}
+
+.card1 {
+	background-image: url(../images/card1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card1 .card {
+	opacity: 0.95;
+}
+
+.textbox, .imagebox {
+	text-align: justify;
+	margin: 0 auto;
+}
+
+.social-link {
+	margin: 15px;
+
+}
+
+#jumbotron-landing {
+	background-color: #141414;
+	margin: 0 auto;
+/*	width: 100%;*/
+}
+
+.jumbotron {
+	background-color: transparent;
+	height: 100vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+}
+
+.homepage-banner {
+	z-index: 10;
+	opacity: 0.90;
+	background-image: linear-gradient( to right, transparent,white,transparent);
+}
+
+.homepage-banner h2 {
+	font-weight: bolder;
+}
+
+.jumbotron-container {
+	background-color: var(--transparent);
+	position: fixed;
+	z-index: 9;
+	left: 0;
+	right: 0;
+}
+
+.carousel-inner img {
+ 	width: auto;
+	height: 100%;
+}
+
+.dropdown-menu {
+	z-index: 10;
+}
+
+#contact-text {
+	margin-top: 30px;
+	color: #e6e6e6;
+}
+
+.accordion {
+	margin-bottom: 10px;
+}
+
+.services, .navbar-nav > .card {
+	margin-bottom: 5px;
+	background-color: black;
+}
+
+
+/******************/
+/*EXTRAWIDE SCREEN*/
+/******************/
+@media only screen and (min-width: 992px){
+
+	.window {
+		height: 58px;
+	}
+
+}
+
+/****************/
+/*DESKTOP SCREEN*/
+/****************/
+@media only screen and (min-width: 767px) and (max-width: 991px){
+
+	.window {
+		height: 66px;
+	}
+
+}
+
+/***************/
+/*TABLET SCREEN*/
+/***************/
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+
+	.window {
+		height: 56px;
+	}
+}
+
+/***************/
+/*MOBILE SCREEN*/
+/***************/
+@media only screen and (max-width: 400px) {
+
+	.window {
+		height: 56px;
+	}
+
+	.homepage-placer {
+		height: 15vh;
+	}	
+
+
+}
