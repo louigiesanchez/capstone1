@@ -183,7 +183,7 @@ header .dropdown-menu {
 	color: black;
 }
 
-.window .window2 {
+.window, .window2 {
 		height: 58px;
 }
 
@@ -222,6 +222,10 @@ p + ul {
 	.window {
 		height: 56px;
 	}
+
+	#jumbotron-landing {
+	background-image: url(../images/landingnarrow.jpg);
+	}
 }
 
 /***************/
@@ -239,6 +243,10 @@ p + ul {
 
 	.window2 {
 		height: 120px;	
+	}
+
+	#jumbotron-landing {
+	background-image: url(../images/landingnarrow.jpg);
 	}
 
 }
