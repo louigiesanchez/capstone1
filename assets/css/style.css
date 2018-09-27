@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Cabin Sketch', cursive;
+
 }
 
 :root {
@@ -11,11 +11,20 @@
 	--colorscheme2: #99d6ff; /*light-color*/
 	--colorschme3: #0074D9; /*normal-color*/
 
-/*	font-family: 'Cabin Sketch', cursive;
-	font-family: 'Great Vibes', cursive;
-	font-family: 'Teko', sans-serif;*/
 }
 
+/*FONTSTYLES*/
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.roboto-slab {
+	font-family: 'Roboto Slab', serif;
+}
 
 /*GENERAL SYLES*/
 
@@ -69,8 +78,36 @@ footer {
 
 .card-body .card-header {
 	padding: 0;
-
 }
+
+.card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#mainhead, .secondhead, .primaryhead{
+	background-color: #99d6ff;
+}
+
+#mainsection1, #mainsection2 {
+	border-radius: 10px 30px;
+}
+
+.requirements {
+	background: rgba(204, 204, 255,0.95);
+}
+
+.requirements2 {
+	background: rgba(204, 204, 255,0.95);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.tertiaryhead{
+	background-color: #c5e8ec;
+}
+
+
 
 .banner > img {
 	height:	30px;
@@ -81,11 +118,11 @@ header .dropdown-menu {
 	border: 0;
 }
 
-/*.card1 {
+.card1 {
 	background-image: url(../images/card1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-}*/
+}
 
 .card1 .card {
 	opacity: 0.95;
@@ -97,8 +134,7 @@ header .dropdown-menu {
 }
 
 .social-link {
-	margin: 15px;
-
+	margin: 20px;
 }
 
 #jumbotron-landing {
@@ -108,25 +144,17 @@ header .dropdown-menu {
 	background-size: cover;
 	background-color: #141414;
 	margin: 0 auto;
+	padding-top: 30vh;
 	width: 100%;
 }
 
 .jumbotron {
 	background-color: transparent;
 	height: 100vh;
-	padding-top: 25vh;
-	padding-bottom: 25vh;
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.homepage-banner {
-	z-index: 10;
-	opacity: 0.90;
-	background-image: linear-gradient( to right, transparent,white,transparent);
-}
-
-.homepage-banner h2 {
-	font-weight: bolder;
-}
 
 .jumbotron-container {
 	background-color: var(--transparent);
@@ -184,6 +212,7 @@ header .dropdown-menu {
 	color: black;
 }
 
+
 .window, .window2 {
 		height: 58px;
 }
@@ -192,17 +221,33 @@ p + ul {
 	padding-left: 10px;
 }
 
-/*#mirror {
+#mirror {
 	background-image: url(../images/mirror.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
 }
 
-#mirror #corevalue {
-	background: rgba(0,0,0,0.5);
-}*/
+#mirrorcover {
+/*	background-color: #99d6ff; */
+	background: rgba(153,214,255,0.8);
+}
 
+#homepage1, #homepage2, #homepage-carousel {
+	padding: 0;
+}
+
+#corevalues {
+	border-radius: 15px 40px;
+}
+
+.delayshow {
+	animation-delay: 1s;
+}
+
+.delayshow2 {
+	animation-delay: 1.5s;
+}
 
 /****************/
 /*DESKTOP SCREEN*/
@@ -212,6 +257,16 @@ p + ul {
 	.window, .window2 {
 		height: 66px;
 	}
+
+	.homepageleft {
+	padding-right: 0;
+	margin: 0;
+}
+
+	.homepageright {
+	padding-left: 0;
+	margin: 0;
+}
 
 }
 
@@ -238,9 +293,9 @@ p + ul {
 		height: 56px;
 	}
 
-	.homepage-placer {
+/*	.homepage-placer {
 		height: 15vh;
-	}	
+	}	*/
 
 	.window2 {
 		height: 120px;	
