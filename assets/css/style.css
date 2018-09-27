@@ -102,7 +102,7 @@ header .dropdown-menu {
 }
 
 #jumbotron-landing {
-	background-image: url("../images/landingwide.jpg");
+	background-image: url("../images/landingshort.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -172,7 +172,8 @@ header .dropdown-menu {
 
 #landing-button {
 	background-image: radial-gradient(transparent, transparent, transparent, white);
-	color: yellow;
+	color: white;
+	font-weight: bolder;
 }
 
 .services .dropdown-item {
@@ -224,7 +225,7 @@ p + ul {
 	}
 
 	#jumbotron-landing {
-	background-image: url("../images/landingnarrow.jpg");
+	background-image: url("../images/landingtall.jpg");
 	}
 }
 
@@ -246,7 +247,7 @@ p + ul {
 	}
 
 	#jumbotron-landing {
-	background-image: url("../images/landingnarrow.jpg");
+	background-image: url("../images/landingtall.jpg");
 	}
 
 }
