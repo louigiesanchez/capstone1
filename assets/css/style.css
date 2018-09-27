@@ -102,7 +102,7 @@ header .dropdown-menu {
 }
 
 #jumbotron-landing {
-	background-image: url(../images/landingwide.jpg);
+	background-image: url("../images/landingwide.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -224,7 +224,7 @@ p + ul {
 	}
 
 	#jumbotron-landing {
-	background-image: url(../images/landingnarrow.jpg);
+	background-image: url("../images/landingnarrow.jpg");
 	}
 }
 
@@ -246,7 +246,7 @@ p + ul {
 	}
 
 	#jumbotron-landing {
-	background-image: url(../images/landingnarrow.jpg);
+	background-image: url("../images/landingnarrow.jpg");
 	}
 
 }
