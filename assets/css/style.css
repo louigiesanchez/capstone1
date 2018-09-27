@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/*font-family: 'Cabin Sketch', cursive;*/
+	font-family: 'Cabin Sketch', cursive;
 }
 
 :root {
@@ -81,11 +81,11 @@ header .dropdown-menu {
 	border: 0;
 }
 
-.card1 {
+/*.card1 {
 	background-image: url(../images/card1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+}*/
 
 .card1 .card {
 	opacity: 0.95;
@@ -102,9 +102,13 @@ header .dropdown-menu {
 }
 
 #jumbotron-landing {
+	background-image: url(../images/landingwide.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	background-color: #141414;
 	margin: 0 auto;
-/*	width: 100%;*/
+	width: 100%;
 }
 
 .jumbotron {
@@ -155,24 +159,56 @@ header .dropdown-menu {
 	background-color: black;
 }
 
-
-/******************/
-/*EXTRAWIDE SCREEN*/
-/******************/
-@media only screen and (min-width: 992px){
-
-	.window {
-		height: 58px;
-	}
+#jumbotron-landing .text-center{
+	/*font-weight: bolder;*/
+	color: white;
+	font-family: 'Righteous', cursive;
 
 }
+
+.link {
+	margin: 10vh 10vw;
+}
+
+#landing-button {
+	background-image: radial-gradient(transparent, transparent, transparent, white);
+	color: yellow;
+}
+
+.services .dropdown-item {
+	color: #999999;
+}
+
+.services .dropdown-item:hover {
+	color: black;
+}
+
+.window .window2 {
+		height: 58px;
+}
+
+p + ul {
+	padding-left: 10px;
+}
+
+/*#mirror {
+	background-image: url(../images/mirror.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+
+#mirror #corevalue {
+	background: rgba(0,0,0,0.5);
+}*/
+
 
 /****************/
 /*DESKTOP SCREEN*/
 /****************/
-@media only screen and (min-width: 767px) and (max-width: 991px){
+@media only screen and (min-width: 767px){
 
-	.window {
+	.window, .window2 {
 		height: 66px;
 	}
 
@@ -201,5 +237,8 @@ header .dropdown-menu {
 		height: 15vh;
 	}	
 
+	.window2 {
+		height: 120px;	
+	}
 
 }
